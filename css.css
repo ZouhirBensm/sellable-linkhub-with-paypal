@@ -65,7 +65,6 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* background: linear-gradient(to bottom, #ffffff, #ffffff, #000060); */
   background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, rgba(0, 255, 34, 0.768));
   
   /* background-color: white; */
