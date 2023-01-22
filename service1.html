@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>© Official Foobar/linkhubwebsite</title>
+  <link href="./css.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/80d236052e.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./imgs/favicon.png" type="image/png">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery-3.6.3.min.js"><\/script>');
+  </script>
+</head>
+
+<body>
+  <div id="promotion-banner">
+    <span>Everything <span style="color:rgb(205, 255, 205);">-50%</span> off, for limited time.</span>
+  </div>
+  <div id="total-payment-div">
+    <header>
+      <img id="main-logo" src="./imgs/foobar.png">
+    </header>
+
+    <div id="content-bloc-div">
+      <h2>Option 1:<span style="color:rgb(0, 163, 0);">160$</span> <s style="color:rgb(255, 34, 34);">$200</s></h2>
+      <h3>You Get</h3>
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+      
+      <h2>Option 2: <span style="color:rgb(0, 163, 0);">210$</span> <s style="color:rgb(255, 34, 34);">$262.5</s></h2>
+      <!-- <h3>We will add</h3> -->
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+  
+      <h2>Please Choose, then Pay</h2>
+    </div>
+
+    <div id="payment-processed-div"></div>
+
+  </div>
+
+  <!-- _______________________________________________________________________________________________ -->
+
+
+    <!-- new -->
+    <div id="smart-button-container" style="margin: 0 auto;">
+      <div style="text-align: center;">
+        <div id="drop-down" style="margin: 0 auto 1.25rem auto; padding: 7px; width: fit-content;">
+          <p style="margin: 5px auto;">Service</p>
+          <select id="item-options" style="margin: 0 auto; width: 80%;"><option value="One" price="160">One - 160 USD</option><option value="Two" price="210">Two - 210 USD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"></select>
+        </div>
+      <div id="paypal-button-container"></div>
+      </div>
+    </div>
+
+
+    <a style="margin: 0 auto; width: fit-content; display: block;" href="html/thanks_example.html">Check out the example thank you page</a>
+    
+    <script src="https://www.paypal.com/sdk/js?client-id=ATmac_xJEK3jsgCfrQfRrxS9lPNwVdWSqmM2WJ3h_AV1dIZMF2X5TAd2QleAauQcgxLVZtjDI5bn4MoZ&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+    
+    <script src="js/pp_service1.js"></script>
+
+</body>
+
+</html>
+
+<script>
